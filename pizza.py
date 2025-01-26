@@ -1,11 +1,11 @@
 
-WATER_RATIO = 0.55 # 55%
+WATER_RATIO = 0.60 # 60%
 SALT_RATIO = 0.025 # 2.5%
-YEAST_RATIO = 0.0015 # 0.15%
-OIL_RATIO = 0.025 # 2.5%
+YEAST_RATIO = 0.0023 # 0.15%
+OIL_RATIO = 0.0 # 2.5%
 
-PANETTO_WEIGHT = 250 # g
-PIZZA_NUMBER = 5
+PANETTO_WEIGHT = 220 # g
+PIZZA_NUMBER = 3
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
 
@@ -23,8 +23,8 @@ print(f"salt = {SALT}")
 print(f"oil = {OIL}")
 print(f"yeast = {YEAST}")
 
-print("Dopo aver impastato (mettere il sale alla fine), lasciare riposare per 20 minuti. Staglio. \
+print("Dopo aver impastato (mettere il sale alla fine), lasciare riposare per 2 ore. Staglio. \
 Far fermentare 1-2 ore a temperatura ambiente. Mettere in frigo per 24-48 ore. \
-Prima dell'utilizzo riportare l'impasto a temperatura ambiente e lasciarlo fermentare 3-4 ore.")
+Prima dell'utilizzo riportare l'impasto a temperatura ambiente e lasciarlo fermentare 4-5 ore.")
 
 
