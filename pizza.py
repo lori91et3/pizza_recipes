@@ -2,10 +2,12 @@
 # pizza 21/02/2025 0.62 0.025 0.0023 0.0
 # pizza 15/03/2025 0.65 0.025 0.0023 0.0 3x260(3x220 + Titti) difficile da gestire, calare lievito
 # pizza 30/03/2025 0.65 0.025 0.0021 0.0 3x260(3x220 + Titti)
-WATER_RATIO = 0.65 # 60%
+# spianata 10/04/2025 0.70 0.025 0.03 0.08 920 1 comunque poco alveolata, aumentare hydro a 80 e farina
+# pizza 12/04/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti)
+WATER_RATIO = 0.68 # 60%
 SALT_RATIO = 0.025 # 2.5%
 YEAST_RATIO = 0.0021 # 0.15%
-OIL_RATIO = 0.0 # 2.5%
+OIL_RATIO = 0 # 0%
 
 PANETTO_WEIGHT = 260 # g
 PIZZA_NUMBER = 3
