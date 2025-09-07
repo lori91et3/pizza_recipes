@@ -4,13 +4,15 @@
 # pizza 30/03/2025 0.65 0.025 0.0021 0.0 3x260(3x220 + Titti)
 # spianata 10/04/2025 0.70 0.025 0.03 0.08 920 1 comunque poco alveolata, aumentare hydro a 80 e farina
 # pizza 12/04/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti)
-WATER_RATIO = 0.68 # 60%
+# pizza 06/09/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti) temperatura 26.4°C, tutto ok
+# spianata 06/09/2025 0.80 0.025 0.03 0.08 1200 1; buona ma aumentare farina, la teglia è grande
+WATER_RATIO = 0.80 # 60%
 SALT_RATIO = 0.025 # 2.5%
-YEAST_RATIO = 0.0021 # 0.15%
-OIL_RATIO = 0 # 0%
+YEAST_RATIO = 0.03 # 0.15%
+OIL_RATIO = 0.08 # 0%
 
-PANETTO_WEIGHT = 260 # g
-PIZZA_NUMBER = 3
+PANETTO_WEIGHT = 1200 # g
+PIZZA_NUMBER = 1
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
 
