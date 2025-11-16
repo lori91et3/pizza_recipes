@@ -1,3 +1,4 @@
+
 # spianata 0.70, 0.025, 0.0023 0.08
 # pizza 21/02/2025 0.62 0.025 0.0023 0.0
 # pizza 15/03/2025 0.65 0.025 0.0023 0.0 3x260(3x220 + Titti) difficile da gestire, calare lievito
@@ -6,13 +7,14 @@
 # pizza 12/04/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti)
 # pizza 06/09/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti) temperatura 26.4°C, tutto ok
 # spianata 06/09/2025 0.80 0.025 0.03 0.08 1200 1; buona ma aumentare farina, la teglia è grande
-WATER_RATIO = 0.80 # 60%
+# spianata 15/11/2025 0.80 0.025 0.03 0.08 1500 1; teglia riempita meglio
+WATER_RATIO = 0.68 # 60%
 SALT_RATIO = 0.025 # 2.5%
-YEAST_RATIO = 0.03 # 0.15%
-OIL_RATIO = 0.08 # 0%
+YEAST_RATIO = 0.0021 # 0.15%
+OIL_RATIO = 0.0 # 0%
 
-PANETTO_WEIGHT = 1200 # g
-PIZZA_NUMBER = 1
+PANETTO_WEIGHT = 260 # g
+PIZZA_NUMBER = 3
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
 
