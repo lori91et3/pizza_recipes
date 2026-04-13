@@ -8,13 +8,14 @@
 # pizza 06/09/2025 0.68 0.025 0.0021 0.0 3x260(3x220 + Titti) temperatura 26.4°C, tutto ok
 # spianata 06/09/2025 0.80 0.025 0.03 0.08 1200 1; buona ma aumentare farina, la teglia è grande
 # spianata 15/11/2025 0.80 0.025 0.03 0.08 1500 1; teglia riempita meglio
-WATER_RATIO = 0.68 # 60%
-SALT_RATIO = 0.025 # 2.5%
-YEAST_RATIO = 0.0021 # 0.15%
-OIL_RATIO = 0.0 # 0%
+# pizza 11/04/2026 0.70 0.025 0.0021 0.0 4x250; provato con Molina Vigevano Vesuvio; panetti un po' giù, aggiungere sale
+WATER_RATIO = 0.70 # Idratazione
+SALT_RATIO = 0.025 # Sale
+YEAST_RATIO = 0.0021 # Lievito
+OIL_RATIO = 0.0 # Olio (non per pizza)
 
-PANETTO_WEIGHT = 260 # g
-PIZZA_NUMBER = 3
+PANETTO_WEIGHT = 250 # g
+PIZZA_NUMBER = 4
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
 
@@ -32,7 +33,7 @@ print(f"salt = {SALT}")
 print(f"oil = {OIL}")
 print(f"yeast = {YEAST}")
 
-print("Dopo aver impastato (mettere il sale alla fine), lasciare riposare per 2 ore. Staglio. \
+print("Dopo aver impastato (mettere il sale alla fine), lasciare riposare per 2 ore, facendo pieghe ogni 30 minuti. Staglio. \
 Far fermentare 1-2 ore a temperatura ambiente. Mettere in frigo per 24-48 ore. \
 Prima dell'utilizzo riportare l'impasto a temperatura ambiente e lasciarlo fermentare 4-5 ore.")
 
