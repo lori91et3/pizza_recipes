@@ -9,13 +9,16 @@
 # spianata 06/09/2025 0.80 0.025 0.03 0.08 1200 1; buona ma aumentare farina, la teglia è grande
 # spianata 15/11/2025 0.80 0.025 0.03 0.08 1500 1; teglia riempita meglio
 # pizza 11/04/2026 0.70 0.025 0.0021 0.0 4x250; provato con Molina Vigevano Vesuvio; panetti un po' giù, aggiungere sale
-WATER_RATIO = 0.70 # Idratazione
-SALT_RATIO = 0.025 # Sale
-YEAST_RATIO = 0.0021 # Lievito
-OIL_RATIO = 0.0 # Olio (non per pizza)
+# pizza 09/05/2026 0.70 0.035 0.0021 0.0 4x250; provato con Molina Vigevano Vesuvio; panetti un po' giù, aggiungere sale
+INGREDIENTS_LIST = [0.70, 0.035, 0.0021, 0.0, 250, 4] # acqua, sale, lievito, olio, peso panetto, numero pizze
 
-PANETTO_WEIGHT = 250 # g
-PIZZA_NUMBER = 4
+WATER_RATIO = INGREDIENTS_LIST[0] # Idratazione
+SALT_RATIO = INGREDIENTS_LIST[1] # Sale
+YEAST_RATIO = INGREDIENTS_LIST[2] # Lievito
+OIL_RATIO = INGREDIENTS_LIST[3] # Olio (non per pizza)
+
+PANETTO_WEIGHT = INGREDIENTS_LIST[4] # g
+PIZZA_NUMBER = INGREDIENTS_LIST[5]
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
 
