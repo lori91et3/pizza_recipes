@@ -1,4 +1,4 @@
-
+" Pizza maturazione in frigo "
 # spianata 0.70, 0.025, 0.0023 0.08
 # pizza 21/02/2025 0.62 0.025 0.0023 0.0
 # pizza 15/03/2025 0.65 0.025 0.0023 0.0 3x260(3x220 + Titti) difficile da gestire, calare lievito
@@ -11,6 +11,7 @@
 # pizza 11/04/2026 0.70 0.025 0.0021 0.0 4x250; provato con Molina Vigevano Vesuvio; panetti un po' giù, aggiungere sale
 # pizza 09/05/2026 [0.70, 0.035, 0.0021, 0.0, 250, 4] buona, ma panetti un po' giù e non molto digeribile, provare più maturazione e fare lo staglio dopo
 # spianata 09/05/2026 [0.80, 0.025, 0.03, 0.08, 1500, 1] buona
+# pizza 26/05/2026 [0.70, 0.035, 0.0021, 0.0, 250, 4] fatto lo staglio 2 ore prima di toglierle da frigo dopo il frigo, pare venuta bene; panetti leggermente giù ma non troppo
 INGREDIENTS_LIST = [0.80, 0.025, 0.03, 0.08, 1500, 1]
 
 WATER_RATIO = INGREDIENTS_LIST[0] # Idratazione

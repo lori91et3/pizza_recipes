@@ -1,18 +1,24 @@
 """ Pizza con biga """
-PANETTO_WEIGHT = 240 # g
-PIZZA_NUMBER = 6
 
-WATER_PERCENTAGE = 0.62 # 56%
-SALT_PERCENTAGE = 0.025 # 2.5%
-YEAST_PERCENTAGE = 0.0053 # 0.3%
-OIL_PERCENTAGE = 0.0 # 2.5%
-MALT_PERCENTAGE = 0.0 # 0.3%
+# pizza 09/05/2026 [0.70, 0.025, 0.0053, 0.0, 0.0, 250, 4] [0.40, 0.44, 0.01]
+INGREDIENTS_LIST = [0.70, 0.025, 0.0053, 0.0, 0.0, 250, 4]
+BIGA_LIST = [0.40, 0.44, 0.01]
 
-BIGA_PERCENTAGE = 0.40
-BIGA_WATER_PERCENTAGE = 0.44
-BIGA_YEAST_PERCENTAGE = 0.01
+WATER_PERCENTAGE = INGREDIENTS_LIST[0] # 56%
+SALT_PERCENTAGE = INGREDIENTS_LIST[1] # 2.5%
+YEAST_PERCENTAGE = INGREDIENTS_LIST[2] # 0.3%
+OIL_PERCENTAGE = INGREDIENTS_LIST[3] # 0.0%
+MALT_PERCENTAGE = INGREDIENTS_LIST[4] # 0.3%
+
+BIGA_PERCENTAGE = BIGA_LIST[0]
+BIGA_WATER_PERCENTAGE = BIGA_LIST[1]
+BIGA_YEAST_PERCENTAGE = BIGA_LIST[2]
+
+PANETTO_WEIGHT = INGREDIENTS_LIST[5] # g
+PIZZA_NUMBER = INGREDIENTS_LIST[6]
 
 DOUGHT_WEIGHT = PANETTO_WEIGHT * PIZZA_NUMBER
+
 # flour + water + salt + oil + yeast + malt = dought_weight
 # flour + flour*WATER_PERCENTAGE + flour*SALT_PERCENTAGE + flouf*OIL_PERCENTAGE + flour*YEAST_PERCENTAGE + flour*MALT_PERCENTAGE = dought_weight
 FLOUR = DOUGHT_WEIGHT/(1+WATER_PERCENTAGE+SALT_PERCENTAGE+OIL_PERCENTAGE+YEAST_PERCENTAGE+MALT_PERCENTAGE)
@@ -51,4 +57,5 @@ print(f"malt = {MALT}")
 print("Preparare la biga e farla fermentare per 18/20 ore a 18 gradi \
 Eseguire il rinfresco eseguendo gli ingredienti, dopo due minuti aggiungere la biga spezzettandola in piccole parti \
 Lasciare riposare 15 minuti, poi staglio. Mettere in frigo per 24-48 ore ricordando di invertirle dopo le prime ore. \
-Prima di utilizzare l'impasto riportarlo a temperatura ambiente lasciando fermentare per 3-4ore.")
+Prima di utilizzare l'impasto riportarlo a temperatura ambiente lasciando fermentare per 3-4ore."
+      )
